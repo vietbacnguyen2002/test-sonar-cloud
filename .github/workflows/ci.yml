@@ -20,8 +20,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=ci-node_sonar-node
-            -Dsonar.organization=ci-node
+            -Dsonar.projectKey=vietbacnguyen2002_full-stack-app
+            -Dsonar.organization=vietbacnguyen2002
             -Dsonar.sources=.
             -Dsonar.exclusions=**/node_modules/**
             -Dsonar.tests=.
